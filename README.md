@@ -9,10 +9,15 @@ Python 3.x
 It uses the following built-in Python modules:
 
 logging: For logging and log file handling.
+
 time: For introducing delays in the monitoring loop.
+
 random: For randomly selecting log levels.
+
 re: For regular expression pattern matching to detect HTTP status codes.
+
 argparse: For parsing command-line arguments.
+
 configparser: For reading configuration settings from a file.
 
 ## Installation
@@ -60,5 +65,4 @@ To generate logs for testing purposes, you can use the `generate_logs.py` file i
     python generate_logs.py
     # Press Ctrl+C to stop generating logs
     ```
-
-2. Follow the prompts to specify the log file name and the number of logs to generate.
+    
