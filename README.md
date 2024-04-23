@@ -1,8 +1,19 @@
-# Log Analysis and Monitoring Script v1.0
+# Log Analysis and Monitoring Script
 
 This project is a log analysis and monitoring script that helps analyze and monitor log files. 
-This project provides monitoring and analysis capabilities for log files.<br>
-*With Logger Support*
+
+# Prerequisites
+Python 3.x
+
+# Dependencies
+It uses the following built-in Python modules:
+
+logging: For logging and log file handling.
+time: For introducing delays in the monitoring loop.
+random: For randomly selecting log levels.
+re: For regular expression pattern matching to detect HTTP status codes.
+argparse: For parsing command-line arguments.
+configparser: For reading configuration settings from a file.
 
 ## Installation
 
@@ -30,7 +41,7 @@ This project provides monitoring and analysis capabilities for log files.<br>
 2. Follow the prompts to specify the log file and the analysis options.
 
 
-## Generating Logs
+## Implementing Log File Monitoring
 
 To generate logs for testing purposes, you can use the `generate_logs.py` file included in the project. 
 
